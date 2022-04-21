@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DIDI SELECT</title>
+    <link rel="stylesheet" href="css/navstyle.css">
+    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui-v2.5.6/css/layui.css"/>
+    <link href="https://fonts.font.im/css?family=Poppins:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/select.css">
+    <!--font-family: 'Righteous', cursive;-->
+    <!--font-family: 'Encode Sans Condensed', sans-serif;-->
+    <!--font-family: 'Permanent Marker', cursive;-->
+    <!--font-family: 'Vollkorn', serif;-->
+    <!--font-family: 'News Cycle', sans-serif;-->
+</head>
+<body>
+<header id="header">
+    <div class="nav index" style="height: 80px;">
+        <a href="index.html" class="nav-logo">
+            <img src="image/logo.png" alt="an eye icon"/>
+        </a>
+        <div class="layui-container">
+            <div class="nav-list">
+                <button><span class=""></span><span style="display: block;"></span><span class=""></span></button>
+                <ul class="layui-nav" lay-filter="">
+                    <li class="layui-nav-item"><a href="./index.html">Design</a></li>
+                    <li class="layui-nav-item active"><a href="./select.html?#ddBox">DiDi Select</a></li>
+                    <li class="layui-nav-item"><a href="./galery.html">Gallery</a></li>
+                    <li class="layui-nav-item"><a href="./about.html">About</a></li>
+
+                    <!--                    <span class="layui-nav-bar" style="left: 342px; top: 78px; width: 0px; opacity: 0;"></span>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="banner">
+    <div class="banner_con">
+        <div><img src="image/didiSelect.png" alt = "a picture providing an overview of the app interfaces, it contains four hero screens of the app, including the home page, the delievery confirming page, the Notice Arrival function page, and notification receiving page."/></div>
+        <div class="banner_right">
+            <div class="banner_title">DiDi Select | Arrival Notice Flow Redesign</div>
+            <div class="banner_text">How do we redesign the process?</div>
+        </div>
+    </div>
+
+    </div>
+<div class="con1" id="ddBox">
+    <div class="con1_box">
+        <div class="con_title">BACKGROUND</div>
+        <div class="con1_content">
+            <div>
+                <div class="subtitle">Stakeholders in the Group Purchasing Business Model</div>
+                <div class="con_text">
+                    As a startup project of DiDi that is designed to allow ​a group of residents
+                    within the same community to buy daily necessities together with less face-to-face
+                    contact and lower prices, DiDi Select has an average of 1.07 million daily active
+                    group leaders. While employed,
+                    I focused on improving the user experience of the app on the group leader's side.
+                </div>
+            </div>
+            <div><img src="image/stakeholders-01.jpg" alt = "an illustration showing the different stakeholders in the group purchasing business model"/></div>
+            <div>
+                <div class="subtitle">In the group purchase business, we seek a
+                    high turnover rate to keep fresh foods in a good condition.</div>
+                <div class="con_text">
+                    Group leaders are the last node on this chain. In order to enable the group leaders to timely notify their customers after
+                    receiving the daily goods, we provide the Function of Arrival Notification on the app.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="con1">
+    <div class="con1_box">
+        <div class="con_title">PROBLEM SCOPING</div>
+        <div class="subtitle">I noticed through business data that the original Arrival Notice feature need to be optimized:</div>
+        <div class="con2_box">
+            <div>
+                <h2>1 Platform Loss</h2>
+                <div class="con_text">
+                    The after-sale rate of the products is 1.8%, among which 20% of the after-sale is caused by the damage of the products due to customers not
+                    picking up the goods in time, the value of the products in this part accounts for 0.36% of the GMV.
+                </div>
+            </div>
+            <div>
+                <h2>2 Low Function usage</h2>
+                <div class="con_text">
+                    According to daily usage data, only 34.92% of the group leaders who have daily records of confirming receipt will use the Arrival Notification function.
+                </div>
+            </div>
+            <div>
+                <h2>3 3 Costomer Complaints</h2>
+                <div class="con_text">
+                    Customers' negative reviews for the group leaders consisted 2.03% of the total reviews, among which negative reviews tagged "Unresponsive Notifications" accounts for 31.84% of the total, ranking the top 2 complaints.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="con3">
+    <div class="con3_con">
+        <div class="con_title">USAGE DATA ANALYSIS & USER INTERVIEW</div>
+        <div class="con3_flex">
+            <div>
+                <div class="subtitle">I dug into user habits through online questionnaires and user interview</div>
+                <div class="con_text">
+                    According to the results of the questionnaire, 64.7% of the group
+                    leaders will send the arrival notice immediately after they finished the
+                    inventory. The main reasons for not using the function are their different
+                    habits in notifying their customers and the cumbersome operations process
+                    of the function.
+                </div>
+                <br>
+                <img src="image/research.png" alt = "research result based on the online questionnaire. Over 50% of the group leaders use the Arrival Notice function every day. the reason why those who don't use the function is they thought the funtion takes too many steps to send the notification."/></div>
+            <div>
+                <div class="subtitle">I further gathered group leaders' feedback on this feature</div>
+                <br>
+                <img src="image/interview picture.png" alt = "interview pictures took at the group leaders' places"/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="con4">
+    <div class="describe">
+        How might we simplify the notification sending process and make the interface
+        more friendly so that more group leaders would use it to notify their customers?
+    </div>
+    <div class="con4_content">
+        <div class="con4_left">
+            <img src="image/arrivalNotice Page.png" alt = "the original detailed arrival notice page"/>
+        </div>
+        <div class="con4_right">
+            <div class="pointBox">
+                <div class="poinTitle">Pain Point 1</div>
+                <div class="poinText">
+                    The Arrival Notice function only serves as an optional
+                    choice after group leaders confirmed the delivery.
+                </div>
+                <div class="poinImg">
+                    <img src="image/1@2x.png" alt = "interviewee saying 'the function could be useful if it can send the notification automatically after I confirm the delievery'"/>
+                </div>
+
+                <div class="poinImg">
+                    <img src="image/2@2x.png" alt = "interviewee saying 'I'd rather do it myself, if the app do it for me, my customers might come picking up their order before I finish sorting'"/>
+                </div>
+
+                <div class="poinTitle">Insight 1</div>
+                <div class="poinText">
+                    Group leaders decide when to send the notifications
+                    but could apply a more straightforward guide for them to use the feature.
+                </div>
+            </div>
+
+            <div class="pointBox">
+                <div class="poinTitle">Pain Point 2</div>
+                <div class="poinText">
+                    Currently, the Arrival Notice page only provides Today's Orders,
+                    group leaders still have trouble contacting customers who didn't show up for days.
+                </div>
+                <div class="poinImg">
+                    <img src="image/3@2x.png" alt = "interviewee saying 'I wish to have an easy way to contact thoes who didn't show up for days.'"/>
+                </div>
+                <div class="poinTitle">Insight 2</div>
+                <div class="poinText">
+                    Expanding the range of notifications to customers in the last three days.
+                </div>
+            </div>
+
+            <div class="pointBox">
+                <div class="poinTitle">Pain Point 3</div>
+                <div class="poinText">
+                    No enough visibility for group leaders to distinguish orders on the page.
+                </div>
+                <div class="poinImg">
+                    <img src="image/4.png" alt = "interviewee saying 'too much text on the page... it could be helpful if it procide some pictures of the goods.'"/>
+                </div>
+                <div class="poinTitle">Insight 3</div>
+                <div class="poinText">
+                    Add some visual elements onto the page (pictures of goods, etc.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#header" class="goTop"><img src="image/top.png" scr="An icon that shows an arrow suggesting back to top by clicking it."/></a>
+
+<footer>
+    Xiaochen Shi © 2022
+</footer>
+<script src="https://www.layuicdn.com/layui-v2.5.6/layui.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>

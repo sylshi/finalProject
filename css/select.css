@@ -1,0 +1,184 @@
+.banner{
+    width: 100%;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(116deg, #FBAB7E 0%, #F7CE68 100%);
+    padding: 4vw 0;
+}
+.banner_con{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+.banner_right{
+    padding:2vw 4vw;
+    box-sizing: border-box;
+}
+.banner_title{
+    font-size: 3vw;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.banner_text{
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+}
+.con1{
+    width: 100%;
+    padding: 3vw 0;
+}
+.con1_box{
+    width: 80%;
+    margin: auto;
+}
+.con_title{
+    font-size: 3vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    color:#000;
+}
+.con_title:hover{
+    color: #20B2AA;
+}
+.con1_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.con1_content>div{
+    width: 32%;
+}
+.subtitle{
+    font-size: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+}
+.con_text{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #666A70;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.con_text:hover{
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.con2_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.con2_box>div{
+    width: 32%;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.con3{
+    width: 100%;
+    padding: 3vw 0;
+}
+.con3_con{
+    width: 80%;
+    margin: auto;
+
+}
+.con3_flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.con3_flex>div{
+    width: 48%;
+}
+.con4{
+    width: 100%;
+    padding: 3vw 0;
+    background: #FDFDFD;
+    border-top: 1px solid #ccc;
+}
+.describe{
+    width: 80%;
+    margin: auto;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+}
+.con4_content{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.con4_left{
+    width: 40%;
+}
+.con4_right{
+    width: 58%;
+    max-height: 50vw;
+    overflow-y: auto;
+}
+.pointBox{
+    width: 100%;
+    padding: 3vw;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+}
+.poinTitle{
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+}
+.poinText{
+    width: 100%;
+    margin-top: 1vw;
+    color: #999999;
+    font-family: 'Poppins', sans-serif;
+}
+.poinImg{
+    width: 70%;
+    margin: 1vw 0;
+    transition: all 0.3s;
+}
+.poinImg:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 768px){
+    .con1_content>div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .con2_box>div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .con3_flex>div{
+        width: 100%;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+    .con4_content>div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .describe{
+        font-size: 20px;
+    }
+}
